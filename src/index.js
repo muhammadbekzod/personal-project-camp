@@ -11,6 +11,7 @@ import CampingPalces from './components/menu-page/CampingPlaces';
 import Navbar from './components/navbar/navbar';
 import Profil from './components/menu-page/profil';
 import Cart from './components/menu-page/cart';
+import MotorsIndex from './components/home/motors';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +26,7 @@ root.render(
       <Route path="/camping-places" element={<CampingPalces />} />
       <Route path="/profil" element={<Profil />} />
       <Route path="/cart" element={<Cart />} />
+      <Route path="/home/motors" element={<MotorsIndex />} />
     </Routes>
   </BrowserRouter>
 
